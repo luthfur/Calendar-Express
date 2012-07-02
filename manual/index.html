@@ -1,0 +1,1388 @@
+<html>
+<head><title>Calendar Express 2.2  - User Manual</title></head>
+	<link rel="stylesheet" href="style.css" type="text/css">
+<body>
+
+<center>
+	<br />
+	<table border="0" cellpadding="0" cellspacing="0" width="600">
+	<tr>
+	
+	<td align="left" width="600"><a href="http://www.phplite.com/products/calendarexpress"><img src="logo.gif" border="0" /></a></td>
+		
+	</tr>
+	<table>		
+	
+	
+	<table cellpadding="20" width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<a name="top"><font class="bigtext"><b>
+	Table of Contents
+	</b></font></a><br /><center>
+	<hr color="2D74B8" width="600"/>
+	</center>
+	<table cellpadding="4" width="600" border="0">
+	<tr>
+	<td width="300" valign="top">
+	<font class="basictext" color="2D74B8"><b>1)</b></font>
+	<a href="#overview" class="basiclink">Overview</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">1.1)</font>
+	<a href="#flist" class="smalllink">Feature List</a>
+	<br/>
+		&nbsp;&nbsp;&nbsp;
+	<font class="littletext">1.2)</font>
+	<a href="#support" class="smalllink">Getting Support</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">1.3)</font>
+	<a href="#bug" class="smalllink">Reporting a Bug</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">1.4)</font>
+	<a href="#suggestion" class="smalllink">Sending Suggestions and Feedback</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">1.5)</font>
+	<a href="#rate" class="smalllink">Rating This Product</a>
+	
+	<br/><br/>
+	
+	<font class="basictext" color="2D74B8"><b>2)</b></font>
+	<a href="#started" class="basiclink">Getting Started</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">2.1)</font>
+	<a href="#installation" class="smalllink">Installation</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">2.2)</font>
+	<a href="#upgrade" class="smalllink">Upgrading from the version 1 series</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">2.3)</font>
+	<a href="#pcomponent" class="smalllink">Product Components</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">2.4)</font>
+	<a href="#ladmin" class="smalllink">Logging in as Administrator</a>
+	
+	<br/><br/>
+	
+	<font class="basictext" color="2D74B8"><b>3)</b></font>
+	<a href="#uadmin" class="basiclink">Using the Administration Panel</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">3.1)</font>
+	<a href="#acalendar" class="smalllink">Adding a new Calendar</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">3.2)</font>
+	<a href="#mcalendar" class="smalllink">Managing Calendars</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">3.3)</font>
+	<a href="#acategory" class="smalllink">Adding a new Category</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">3.4)</font>
+	<a href="#mcategory" class="smalllink">Managing Categories</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">3.5)</font>
+	<a href="#mevents" class="smalllink">Managing Events</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">3.6)</font>
+	<a href="#aevents" class="smalllink">Approving Suggested Events</a>	
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">3.7)</font>
+	<a href="#auser" class="smalllink">Adding a new User and Administrator</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">3.8)</font>
+	<a href="#muser" class="smalllink">Managing Users and Administrators</a>	
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">3.9)</font>
+	<a href="#alocation" class="smalllink">Adding a new Location</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">3.10)</font>
+	<a href="#mlocation" class="smalllink">Managing Locations</a>	
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">3.11)</font>
+	<a href="#msettings" class="smalllink">Changing Configuration</a>	
+	<br/>
+	
+	
+	<td valign="top">
+	
+	<font class="basictext" color="2D74B8"><b>4)</b></font>
+	<a href="#uecpanel" class="basiclink">Using the My Events Control Panel</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">4.1)</font>
+	<a href="#adevent" class="smalllink">Adding a new Event</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">4.2)</font>
+	<a href="#manageevents" class="smalllink">Managing Events</a>
+	<br/>	
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">4.3)</font>
+	<a href="#newlocation" class="smalllink">Adding a new Location</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">4.4)</font>
+	<a href="#managelocation" class="smalllink">Managing Locations</a>	
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">4.5)</font>
+	<a href="#newcontact" class="smalllink">Adding a new Contact</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">4.6)</font>
+	<a href="#managecontact" class="smalllink">Managing Contacts</a>	
+	
+	<br /><br />
+	
+	<font class="basictext" color="2D74B8"><b>5)</b></font>
+	<a href="#cust" class="basiclink">Customization</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">5.1)</font>
+	<a href="#changecolor" class="smalllink">Changing Colors</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">5.2)</font>
+	<a href="#headerfooter" class="smalllink">Templates and Languages</a>
+	<br/>
+
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">5.3)</font>
+	<a href="#rollover" class="smalllink">Mini Calendar Rollover</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">5.4)</font>
+	<a href="#graphics" class="smalllink">Editing the Graphics</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">5.5)</font>
+	<a href="#linking" class="smalllink">Linking to your Calendar</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">5.6)</font>
+	<a href="#addon" class="smalllink">Using the Addons</a>
+	<br/>
+	&nbsp;&nbsp;&nbsp;
+	<font class="littletext">5.7)</font>
+	<a href="#reminder" class="smalllink">Setting up the Event Reminder Feature</a>
+	<br/>
+	
+	
+	
+	<br /><br />
+	
+	
+	</td>
+	</tr></table>
+	
+	
+	<a name="overview">
+	<hr color="2D74B8" width="600"/>
+	
+	<br />
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>1) Overivew</b></font>
+	</td></tr></table>
+	</a>
+	<br />
+	<br />
+
+	
+	<a name="flist">
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>1.1) Feature List</b></font>
+	<br /><br /><br />
+
+	<font class="basictext">
+				<b>Unlimited Calendars</b>
+				<br /><br />
+				Create and Manage unlimited number of Event Calendars. Assign unique graphics and icons to each Calendar.
+
+
+				<br /><br /><br />
+				<b>Unlimited Categories</b>
+				
+				<br /><br />
+				Arrange Calendars into unlimited number of Categories.
+
+				<br /><br /><br />
+
+				<b>Intuitive, Easy to Use Interface</b>
+				
+				<br /><br />
+				Improved Navigation system throughout the Calendar View allows you to 
+				browse through the calendars and events easily and effectively. 
+				
+
+				<br /><br /><br />
+
+				<b>Multiple view formats</b>
+				
+				<br /><br />
+				View Calendars individually, by Category or all Calendars combined.  View events by Day, Month or Year.
+								
+				<br /><br /><br />
+
+				<b>Search Events and Calendar</b>
+				
+				<br /><br />
+				New and improved search system also includes the new Advanced Search mode.
+
+				<br /><br /><br />
+
+				<b>Export Events</b>
+				
+				<br /><br />
+				Synchronize an event with Outlook, Palm, or other hand-held devices.
+
+				<br /><br /><br />
+				<b>Calendar Subscriptions</b>
+				
+				<br /><br />
+
+				Calendar Users have the ability to subscribe to selected calendars and receive event reminders and notifications via email.
+				
+				</font>
+
+			<font class="basictext">
+				<br /><br /><br />
+				<b>Printer Friendly View - </b> <font class="basictext" color="FF0000"><b>NEW!</b></font>
+				
+				<br /><br />
+
+				Day, Month and Year views can be transformed into printer friendly views for hard copy output.
+				
+				</font>
+	
+				
+			<br /><br /><br />
+			
+			<font class="basictext">
+
+				<b>My Events Control Panel</b>
+				
+				<br /><br />
+				 All new My Events Control Panel (formerly known as Event Control) allow registered Calendar Users to login and easily manage all their events, locations and contacts.
+
+				<br /><br /><br />
+				<b>Recurring Events</b>
+				
+				<br /><br />
+
+				Users have the options to choose from upto 11 different types of event recurrence when adding an event. All new recurrences include: Tue, Thu of Every Week, Mon, Wed, Fri of Every Week, Every Weekday and Every Weekend.
+
+				<br /><br /><br />
+
+				<b>WYSIWYG Rich Text Editor - </b> <font class="basictext" color="FF0000"><b>NEW!</b></font>
+				
+				<br /><br />
+				Enter Event descriptions using our full featured WYSIWYG Editor.
+								
+				<br /><br /><br />
+				<b>Event Location and Contact Information</b>
+				
+				<br /><br />
+
+				Users have the ability to assign unique locations and contact information to every event.
+
+				<br /><br /><br />
+				<b>Visitor Contributions</b> 
+				
+				<br /><br />
+
+				Visitors can add events or register to become a User, pending administrator apporval.
+			
+			</font>
+				
+			<br /><br /><br />
+			
+			<font class="basictext">
+
+				<b>Multiple Administrator</b>
+				
+				<br /><br />
+
+				Ability to setup multiple Administrators
+
+				<br /><br /><br />
+				<b>User Management</b>
+				
+				<br /><br />
+
+				Manage and view all User information. Ability to send email messages and newsletters to all registered Users.
+				
+
+				<br /><br /><br />
+				<b>Event Management</b>
+				
+				<br /><br />
+
+				Ability manage and view all events and locations added by registered Users
+
+				<br /><br /><br />
+				<b>Customize Settings</b>
+				
+				<br /><br />
+
+				Easily customize and configure all settings.
+
+			</font>
+
+			<br /><br /><br />
+			
+			<font class="basictext">
+			
+			<b>Automatic Installation</b>
+				
+				<br /><br />
+
+				Easy to use Automatic Database Installer included with every purchase.
+
+
+			<br /><br /><br />
+			
+			<b>Customize Look and Feel</b>
+				
+				<br /><br />
+
+				New Template-based interface provides the ability to customize the look and feel of the product.
+				Easily change colors using the stylesheet to allow the product to blend in with your website.
+				Multiple style pack support allows you to switch between style packs easily.
+
+			<br /><br /><br />
+
+
+			<b>Addons for your Web Site - </b> <font class="basictext" color="FF0000"><b>NEW!</b></font>
+				
+				<br /><br />
+
+				Display a Mini-Calendar, upcoming events list or week's events list at any part of your website and link directly to your Calendars.
+
+			<br /><br /><br />
+
+
+			<b>Integration</b>
+				
+				<br /><br />
+
+				Easily integrate calendar with PHPBB2 Forum software.
+
+			<br /><br /><br />
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+
+
+	<a name="support">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>1.2) Getting Supports</b></font>
+	<br /><br />
+	
+	<font class="basictext">
+	Support for Calendar Express is available Free. <br /><br />
+	Send all your support questions to 
+	<a href="mailto:support@phplite.com" class="basiclink">support@phplite.com</a>
+	</font>
+	
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	<a name="bug">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>1.3) Reporting a Bug</b></font>
+	<br /><br />
+	
+	<font class="basictext">
+	We do our best to ensure that all our products are bug free. 
+	<br /><br />
+	But if one does slip through let us know by contacting us at: 
+	<a href="mailto:feedback@phplite.com" class="basiclink">feedback@phplite.com</a>
+	</font>
+	
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	<a name="suggestion">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>1.4) Send Suggestions and Feedback</b></font>
+	<br /><br />
+	
+	<font class="basictext">
+	We always welcome any suggestions and comments, to help improve this product. 
+	<br /><br />Let us know what you think and what new features you'd like to see by 
+	contacting us at: 
+	<a href="mailto:feedback@phplite.com" class="basiclink">feedback@phplite.com</a>
+	</font>
+	
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	<a name="rate">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>1.5) Rate this Product</b></font>
+	<br /><br />
+	<font class="basictext">
+	If you like this product you can let others know what you think by rating it on
+	some of the popular script directories. <br />
+	<br /> 
+	
+	
+	<center>
+	<form action="http://www.hotscripts.com/cgi-bin/rate.cgi" method="POST" target="_blank">
+	<input type="hidden" name="ID" value="22309">	
+	<b>Rate Calendar Express 2 at hotscripts.com:</b> 
+	<select name="ex_rate" size="1" class="testbox">
+	<option value selected>-- Select One --</option>
+	<option value="5">Excellent!</option>
+	<option value="4">Very Good</option>
+	<option value="3">Good</option>
+	<option value="2">Fair</option>
+	<option value="1">Poor</option>
+	</select>
+	<input type="submit" value="Rate it!"/>
+	</form>
+	
+	<br />
+	<!--
+		
+	<form method=POST action="http://php.resourceindex.com/rate/index.cgi" target="_blank">
+        <input type=hidden name="referer" value="http://php.resourceindex.com/">
+        <input type=hidden name="link_code" value="02369">
+        <input type=hidden name="category_name" 
+         value="Complete Scripts/Survey and Voting/">
+        <input type=hidden name="link_name" value="Phplite Poll">
+        <b>at phpresourceindex.com:</b>
+		<select name="rating" class="textbox">
+          <option selected>--
+          <option>10
+          <option>9
+          <option>8
+          <option>7
+          <option>6
+          <option>5
+          <option>4
+          <option>3
+          <option>2
+          <option>1
+          </select>
+		<input type="submit" value="Rate it!" class="button" />
+		</form>
+	</center>
+	</font>
+	-->
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+
+
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<a name="started">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	<font class="basictext" color="2D74B8"><b>2) Getting Started</b></font>
+	<br /><br />
+	<font class="basictext">
+	Once you have purchased and downloaded your copy of Calendar Express 2, unzip the package calendarexpress2.zip to extract the 'calendarexpress2' directory. Upload this directory and its contents ensuring that the directory structure remains intact. You may rename the directory to 'calendars' or any other name of your choice.
+	</font>
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	<a name="installation">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>2.1) Installation</b></font>
+	<br /><br />
+	<font class="basictext">
+	Before proceeding with the installation you will have to ensure that the proper file permissions for the files config.php and settings.php are set (CHMOD them to 666), so that the installer can freely read and write to them. A MySQL database will also be required.
+	<br /><br />
+	To begin, point your browser to the 'setup' directory. Follow the on-screen instructions to install the required database tables and create your Administration and User Accounts. 
+	</font>
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+
+	<a name="upgrade">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>2.2) Upgrading from the version 1 series</b></font>
+	<br /><br />
+	<font class="basictext">
+	Before proceeding with the upgrade, ensure that all existing calendar files and database are all backed up. 
+		<br /><br />
+	You will need to rename the file config.php from version 1 to 
+
+	config_old.php. Copy config_old.php to the new Calendar Express 2 directory. Ensure that the proper file permissions for the files config.php and settings.php 
+	(in the new Calendar Express 2 directory) are set (CHMOD them to 666), so that the installer can freely read and write to them.
+	
+	<br /><br />
+
+	Direct your browser to the 'upgrade' directory. Follow the on screen instructions to complete the installation.
+	</font>
+	</td></tr></table>
+	</a>
+
+
+	<br /><br />
+	
+	<a name="pcomponent">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>2.2) Product Components</b></font>
+	<br /><br />
+	<font class="basictext">
+	Calendar Express consists of the following main components:<br />
+	<br />
+	<ul>
+	<li /><b>Calendar View:</b> This is the section, which your visitors will be able to view.
+	<br /><br />
+	<li /><b>Administration Panel:</b> This Panel allows you to manage, calendars, users, locations, settings and administrators.
+	<br /><br />
+	<li /><b>My Events Control Panel:</b> This Panel allows Users ( set by the Administrators) to add, modify and delete events, locations and contacts.
+	<br /><br />
+	<li /><b>Addon Package:</b> This package consists of four small scripts that allows you to integrate a calendar search box and a mini-calendar into your homepage (or any other webpage you choose).
+	</ul>
+	</font>
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	<a name="ladmin">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>2.3) Logging in as Administrator</b></font>
+	<br /><br />
+	<font class="basictext">
+	To log in to the Administration Panel, point your browser to the admin directory 
+	(within your calendarexpess directory). <br /><br />
+	For example: http://www.yourdomain.com/calendarexpress/admin
+	<br /><br />
+	Once there you will see the log in page. Log in as an Administrator use the user name and password
+	you set during installation of the product.
+	
+	</font>
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+		
+	
+	<a name="uadmin">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>3) Using the Administration Panel</b></font>
+	<br /><br />
+	</td></tr></table>
+	</a>
+	
+	<br />
+	
+	
+	<a name="acalendar">
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>3.1) Adding a new Calendar</b></font>
+	<br /><br />
+	<font class="basictext"> 
+	To Add a new calendar simply click on the <i>Add Calendar</i>, link on your Admin Panel and fill out the New Calendar form. 
+	
+	You will be able to select an existing Category to add the calendar to, or create a completely new Category.
+	
+	Click <i>Add a new Calendar</i> to add the new calendar.
+	</font>
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	<a name="mcalendar">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>3.2) Managing Calendars</b></font>
+	<br /><br />
+	<font class="basictext"> 
+	To view all the calendars that are available go to the Calendar List section by clicking on 
+	the <i>Calendars</i> link on your Admin Panel. The Admin Panel will allow you t delete calendars, edit calendar details or move calendars to a different category.
+
+	<br /><br />To delete a calendar, click on the <i>Delete</i> link on the calendar list or on the Calendar Details page.
+
+	Click on the calendar names to view the calendar details. The Calendar Details page will allow you to edit all calendar details or move the calendar to a different category</font>
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+
+	<a name="acategory">
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>3.3) Adding a new Category</b></font>
+	<br /><br />
+	<font class="basictext"> 
+	New Categories can only be added when creating a new calendar or moving an existing calendar. 
+	</font>
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	<a name="mcategory">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>3.4) Managing Categories</b></font>
+	<br /><br />
+	<font class="basictext"> 
+	To view all the categories that are available go to the Calendar List section by clicking on 
+	the <i>Calendars</i> link on your Admin Panel. 
+
+	Click on the Category name to view the Category Details page.
+
+	<br /><br />To delete a Category, click on the <i>Delete</i> link on the Category Details page. WARNING: Deleting a category will cause all Calendars and events under that Category to be deleted as well. 
+
+	Also, deleting all calendars from a Category will cause the Category to be deleted as well.
+
+	</font>
+	</td></tr></table>
+	</a>
+
+<br /><br />
+
+
+	<a name="mevents">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>3.5) Managing Events</b></font>
+	<br /><br />
+	<font class="basictext"> 
+	The Admin Panel allows you to view, edit or delete all events that are added by your Users.
+	<br /><br />
+	To view an Event details, click on the Event name. 
+	<br /><br />
+	You can delete events by clicking on the <i>Delete</i> link on the Event list or on the Event Details page.
+
+	</font>
+	</td></tr></table>
+	</a>
+	
+<br /><br />
+
+	<a name="aevents">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>3.6) Approving Suggested Events</b></font>
+	<br /><br />
+	<font class="basictext"> 
+	To view Events suggested by visitors, click on the <i>Unapproved Events</i> link. 
+	<br /><br />
+	To view an Event details, click on the Event name. 
+	<br /><br />
+	You can approve events by clicking on the <i>Approve</i> link on the Event list or on the Event Details page. Once approved the events will appear in the Calendar.
+	<br /><br />
+	You can reject events by clicking on the <i>Reject</i> link on the Event list or on the Event Details page. Rejected events are deleted.
+	</font>
+	</td></tr></table>
+	</a>
+
+
+	
+
+
+	<br /><br />
+	
+	<a name="auser">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>3.7) Adding a new User and Administrator</b></font>
+	<br /><br />
+	<font class="basictext">
+	Users that are added through the Admin Panel will have the access to their own My Events Account
+	and will be able to add, edit and delete their own locations, contacts and events.
+	<br /><br />
+	To add a new User or Administrator, click on the <i>Add User</i> link on your Admin Panel and use the New User form. To provide the user with access to the Admin Panel, select <i>Administrator</i> from the <i>Status</i> select box. Select the Calendar Privileges from the list of calendars. The user must have Calendar Privileges to certain calendars in order to add events to them.
+	<br /><br />
+	Note: Administrators will have have Global privileges to all Calendars.
+
+	</font>
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	<a name="muser">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>3.8) Managing Users and Administrators</b></font>
+	<br /><br />
+	
+	<font class="basictext">
+	Click on the <i>Users</i> link to view the User List. All user accounts can be viewed from the User List on the Admin Panel. Detailed information of a user can be viewed by the clicking the Details link. 
+	<br /><br />
+	When viewing the details of a user you can add or remove calendar privileges easily. To Add a new calendar privilege, click on the Add More link and follow the on screen instructions. To remove a calendar privilege simple click on the Remove Privilege link beside the calendar name.
+	<br /><br />
+	To Delete a User click on the Delete link.
+	</font>
+	
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	<a name="alocation">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>3.9) Adding a new Location</b></font>
+	<br /><br />
+	
+	<font class="basictext">
+	To add a new location click on the Add Location link on the Admin Panel and fill out 
+	the New Location form. 
+	
+	
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	<a name="mlocation">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>3.10) Managing Locations</b></font>
+	<br /><br />
+	
+	<font class="basictext">
+	Locations that are available to users can be viewed by going to the Location list by clicking on the <i>Location</i> link. 
+	This sections allows you to modify and delete locations.
+	</font>
+	
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	<a name="msettings">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>3.11) Changing Configuration</b></font>
+	<br /><br />
+	
+	<font class="basictext">
+	Inorder to change the product configurations, the file settings.php must be writable.
+
+	Calendar Configurations:
+	
+	<ul>
+
+	<li /><b>Site Name:</b> Enter the name of your Web Site. This will appear on the calendar.
+   <br /><br />
+
+	<li /><b>Calendar URL:</b> Enter the URL of the calendar directory.
+   <br /><br />
+
+	<li /><b>Site Administrator Email address:</b> Enter the main administrator email address.
+   <br /><br />
+
+	<li /><b>Time Zone:</b> Enter the Time zone value. This will only be used as part of the vCalendar feature
+   <br /><br />
+
+	<li /><b>Time Display Format:</b> Select your default hour display format 
+	<br /><br />
+
+	<li /><b>Calendar View Date Format:</b> Select the date format for the dates that will appear on the Calendar View.
+   <br /><br />
+
+	<li /><b>My Events Date Format:</b> Select the date format for the dates that will appear on the My Events Control Panel.	
+	<br /><br />
+
+	<li /><b>Weekly, Monthly, day display format:</b>Select the date format for the dates that will appear for each day on the Weekly and Monthly Calendar View.	
+   <br /><br />
+
+	<li /><b>Start of Week</b> Select the start of the week for you calendar display
+	<br /><br />
+
+	<li /><b>Number of Rows per Page in Lists</b> Specify the number of rows that will be displayed per page for lists.
+   <br /><br />
+
+	<li /><b>Emails per Interval:</b> Specify the number of emails that will be sent out in every interval.
+   <br /><br />
+
+	<li /><b>Email Signature:</b> Specify the email signature that will appear on every Administrator Email that are automatically sent out.
+   <br /><br />
+
+	<li /><b>Allow Guest Post:</b> 	 Select whether to allow visitors (non-registered users) to suggest events. 
+	<br /><br />
+
+	<li /><b>Allow User Registration:</b>   Select whether to allow visitors to sign up and register.  
+	<br /><br />
+
+	<li /><b>Month View Type:</b> Select the default Monthly Calendar view.
+	<br /><br />
+
+ 	<li /><b>Allow Text Time:</b> Select whether to allow users to specify text along with their time entries, when posting events.
+			 
+	<br /><br />
+ 
+	<li /><b>Event Sorting:</b> Select the type of sorting to use during event list display.
+	<br /><br />
+
+	<li /><b>Allow Event Recommendations:</b> Choose whether to allow users or visitors to send email recommendations to friends for events.
+	 
+	 <br /><br />
+	<li /><b>Display Date Suffix ("st", "nd", "th"):</b> Select whether to display date suffix.
+	
+	 <br /><br />
+	<li /><b>Show Calendar Image in Calendar View Header:</b> Select whether to display calendar image in the Calendar view header.
+	 <br /><br />
+	<li /><b>Show Calendar Name in Event List:</b> Select whether to display the calendar name when listing events.
+	  <br /><br />
+	<li /><b>Show Event Location in Event List:</b> Select whether to display the event location when listing events.
+	 <br /><br />
+	<li /><b>Show Event Time in Event List:</b> Select whether to display the event time when listing events.
+	   <br /><br />
+	<li /><b>Show Calendar Icon in Event List:</b>  Select whether to display the calendar icon when listing events.
+		 <br /><br />
+
+	</ul>
+	
+	</font>
+	
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	<a name="uecpanel">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>4) Using the Event Control Panel</b></font>
+	<br /><br />
+	</td></tr></table>
+	</a>
+	
+	<br />
+	
+	
+	<a name="adevent">
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>4.1) Adding a new Event</b></font>
+	<br /><br />
+	
+	<font class="basictext">
+	
+	Events can be added using the <i>Add Events</i> form which can be accessed by logging into My Events.
+	<br /><br />
+The My Events Control Panel allows you to add upto 11 different types of events:
+<br /><br />
+
+<b>1. One Day Event</b> - An event that occurs on a single day.<br /><br/>
+
+<b>2. Multiple Day Event</b> - An event that occurs over a few days.<br /><br/>
+
+<b>3. Monday, Wednesday, Friday Event</b> - An event that occurs every Monday, Wednesday, Friday of every week.<br /><br/>
+
+<b>4. Tuesday, Thursday Event</b> - An event that occurs every Tuesday, Thursday of every week.<br /><br/>
+
+<b>5. Every Weekday Event</b> - An event that occurs from Monday to Friday every week.<br /><br/>
+
+<b>6. Every Weekend Event</b> -  An event that occurs every weekend.<br /><br/>
+
+<b>7. Weekly Event</b> - An event that occurs every week on the chosen day of the week.<br /><br/>
+
+<b>8. Monthly Event</b> - An event that occurs every month on the chosen day of the month.<br /><br/>
+
+<b>9. Annual Event</b> - An event that occurs every year on the chosen day of the chosen month.<br /><br/>
+
+<b>10. Monthly Periodical Event</b> - An event that occurs on a given day of a given week. For example: the third Monday of every month.<br /><br/>
+
+<b>11. Annual Periodical Event</b> - An event that occurs on a given day of a given week of a given month. For example: the first Thursday of June every year.<br /><br/>
+<br /><br />
+
+Fill out the <i>Add Event</i> form to add your event.
+	
+	</font>
+	
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	<a name="manageevents">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>4.2) Managing Events</b></font>
+	<br /><br />
+	
+	<font class="basictext">
+	You can view, modify and delete events you have posted by going to the View Events section. To view details of the event click on the event name. For the details page you can make additions and modifications to the event details.  
+	</font>
+	
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	<a name="newlocation">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>4.3) Adding a new Location</b></font>
+	<br /><br />
+	
+	<font class="basictext">
+	You can add a location only when posting an event. 
+	</font>
+	
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	<a name="managelocation">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>4.4) Managing Locations</b></font>
+	<br /><br />
+	
+	<font class="basictext">
+	You can view the locations you have added by going to the View Location section. 
+	
+	</font>
+	
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+
+
+	<a name="newcontact">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>4.5) Adding a new Contact</b></font>
+	<br /><br />
+	
+	<font class="basictext">
+	You can add a new contact only when posting an event. 
+	</font>
+	
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	<a name="managecontact">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>4.6) Managing Contacts</b></font>
+	<br /><br />
+	
+	<font class="basictext">
+	You can view the contacts you have added by going to the View Contact section. This section will allow you to
+	modify or delete your contacts.
+	
+	</font>
+	
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	
+	<a name="cust">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>5) Customization</b></font>
+	<br /><br />
+		
+	</td></tr></table>
+	</a>
+	
+	<br />
+	
+	<a name="changecolor">
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>5.1) Changing Colors</b></font>
+	<br /><br />
+	
+	<font class="basictext">
+	The product allows you to change and customize colors for both the Calendar View and the My Events Control Panel by editing the style.css stylesheet residing in the templates/defaultblue/styles directory. Following are the definitions of the stylesheet classes and ids:
+	<br /><br /><br />
+.header: header style
+<br /><br />
+.table: basic table style
+<br /><br />
+#nav: header navigation panel style
+<br /><br />
+.theader: table header style
+<br /><br />
+.tminicalendar: mini-calendar table style
+<br /><br />
+.tyearcalheader: mini-calendar table style for the Yearly View
+<br /><br />
+.tdatecell: mini-calendar basic date cell
+<br /><br />
+.teventcell: mini-calendar event highlighted cell 
+<br /><br />
+.ttodaycell: mini-calendar today's date highlighted cell 
+<br /><br />
+.monthemptycell: empty cell style for the block Monthly View
+<br /><br />
+.monthdatecell:  basic date cell style for the block Monthly View
+<br /><br />
+.montheventcell: event highlighted cell style for the block Monthly View
+<br /><br />
+.monthtodaycell: today's date highlighted cell style for the block Monthly View
+<br /><br />
+.tablebody: table body style for the block Monthly View
+<br /><br />
+.tyearbox: year select box style
+<br /><br />
+.eventheader: event list header style
+<br /><br />
+.tevents1: event list body style 
+<br /><br />
+.hrbar: horizontal bar style
+<br /><br />
+.selectbox: basic select box style
+<br /><br />
+.subheader: subheader style
+<br /><br />
+.bigtext: large text style
+<br /><br />
+.mediumtext: medium text style
+<br /><br />
+.basictext: basic text style
+<br /><br />
+.littletext: little text style
+<br /><br />
+.tinytext: smallest text style
+<br /><br />
+.errortext: error message text style
+<br /><br />
+.textbox: text box style
+<br /><br />
+.button: button style
+<br /><br />
+a.navlink: common navigation link style
+<br /><br />
+a.listinglink: common listing link style
+<br /><br />
+a.orderbylink: list "Order by" link style
+<br /><br />
+a.basiclink: basic link style
+<br /><br />
+a.smalllink: small link style
+<br /><br />
+a.editlink: event edit link style
+<br /><br />
+a.eventaddlink: event add link style
+<br /><br />
+a.datelink: minicalendar basic date link
+<br /><br />
+a.todaylink: minicalendar today's date link
+<br /><br />
+a.eventlink:  minicalendar event date link
+<br /><br />
+a.tableheaderlink:  table header link style
+<br /><br />
+a.monthviewlink: Block Monthly View event list link
+
+
+	</font>
+	
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	<a name="headerfooter">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>5.2) Templates and Languages</b></font>
+	<br /><br />
+	
+	<font class="basictext">
+	The all new Calendar Express version 2 has a completely template based presentation layer. This provides
+	webmasters with the flexibility to modify and customize the Calendar View and My Events to blend in with their websites.
+	<br /><br />
+	The template system works using Style Packs. Style Packs are directories containing the template files, graphics and stylesheets. They are kept in the <i>templates</i> directory. 
+	<br /><br />
+	Calendar Express comes with only one Style Pack called <i>defaultblue</i>.
+	<br /><br />
+	You can created unlimited number of Style Packs and place them in the <i>templates</i> directory. You can switch Active Style Packs from the Configuration page in the Administration Panel.
+	<br /><br />
+	The Calendar View templates are available at the <i>templates/defaultblue</i> directory.
+	<br /><br />
+	The My Events templates are available at the <i>templates/defaultblue/myevents</i> directory.
+	 <br /><br />
+	The Email templates are available at the <i>templates/defaultblue/emailtemplates</i> directory.
+<br /><br />
+	The templates can be used to easily translate the interface into a different language. To complete a translation edit the file lang_settings.php found in the main directory.
+
+	</font>
+	
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	<a name="rollover">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>5.3) Mini Calendar Rollover</b></font>
+	<br /><br />
+	
+	<font class="basictext">
+	To setup the minicalendar rollover effect you will have to open the file rollover.js 
+	(residing in the <i>templates/defaultblue/styles</i> directory) in your text editor and follow the 
+	commented instructions to edit the variables.
+	</font>
+	
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	
+	<a name="graphics">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>5.4) Editing the Graphics</b></font>
+	<br /><br />
+	
+	<font class="basictext">
+	The graphics associated with the interface can be found in the <i>templates/defaultblue/graphics</i> directory. You can edit them using a graphics editor.
+	</font>
+	
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	
+	
+	
+	<a name="linking">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>5.5) Linking to your Calendar</b></font>
+	<br /><br />
+	<font class="basictext">
+
+	Note: The following directions assume that your Calendar Express directory is named <i>calendar</i>.
+	<br /><br />
+	To link to the Calendar List, place a link to the calendar directory. 
+	<br /><br />
+	For example: http://www.yourdomain.com/calendar
+
+<br /><br/>
+
+To link directly to a certain calendar use the following format:
+
+<br /><br/>
+http://www.yourdomain/calendar/week.php?cid=CALENDAR_ID
+http://www.yourdomain/calendar/month.php?cid=CALENDAR_ID
+http://www.yourdomain/calendar/year.php?cid=CALENDAR_ID
+http://www.yourdomain/calendar/today.php?cid=CALENDAR_ID
+
+<br /><br/>
+Replace the text 'CALENDAR_ID' with the proper calendar ID.
+
+<br /><br/>
+
+To link directly to the All calendar view:
+
+<br /><br/>
+
+http://www.yourdomain/calendar/week.php
+http://www.yourdomain/calendar/month.php
+http://www.yourdomain/calendar/year.php
+http://www.yourdomain/calendar/today.php
+	</font>
+	
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	
+	
+	
+	
+	
+	<a name="addon">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>5.6) Using the Addons</b></font>
+	<br /><br />
+	
+	<font class="basictext">
+ 	This script comes with four addons. The Mini Calendar, The Week Event Box, The Upcoming Event Box and The Search Box. The addon files are avialable in the <i>addons</i> directory. You can include these features at any part of your Web Site and link directly to your Calendar Installation.
+
+	<br />
+
+
+<br /><br />
+
+<br />
+<b>Configuring and Installing the Mini Calendar:</b>
+<br /><br />
+
+
+Open the file minicalendar.php in you favorite text editor and edit the variable $calendar_id with the calendar ID of the calendar you selected. (Note: you can get the calendar ID of a calendar by using the Calendar Control on your Administration Panel).<br /><br />
+
+To embedd the addon to your site you could either copy the entire code and paste it into your webpage code or include it using a php include statement. If you choose the former, you will have to edit the $calendar_path variable with the path to the calendar directory.<br /><br />
+
+To get the rollover effect you will need to copy the contents of templates/defaultblue/styles/rollover.js file to your webpage and paste it between the head tags.
+
+<br /><br /><br />
+
+
+<b>Configuring and Installing the Search Box:</b>
+<br /><br />
+
+Open the file searchbox.php in you favorite text editor and edit the variable $calendar_id with the calendar ID of the calendar you selected.<br /><br />
+
+To embedd the addon to your site you could either copy the entire code and paste it into your webpage code or include it using a php include statement. If you choose the former, you will have to edit the $calendar_path variable with the path to the calendar directory.
+	
+
+<br /><br /><br />
+
+
+<b>Configuring and Installing the Week Event Box:</b>
+<br /><br />
+
+Open the file weekbox.php in you favorite text editor and edit the variable $calendar_id with the calendar ID of the calendar you selected. <br /><br />
+
+To embedd the addon to your site you could either copy the entire code and paste it into your webpage code or include it using a php include statement. If you choose the former, you will have to edit the $calendar_path variable with the path to the calendar directory.<br /><br />
+
+Finally copy the contents of templates/defaultblue/styles/rollover.js file to your webpage and paste it between the head tags.
+
+
+<br /><br /><br />
+
+<b>Configuring and Installing the Upcoming Event Box:</b>
+<br /><br />
+
+Open the file upcoming.php in you favorite text editor and edit the variable $calendar_id with the calendar ID of the calendar you selected. 
+
+To embedd the addon to your site you could either copy the entire code and paste it into your webpage code or include it using a php include statement. If you choose the former, you will have to edit the $calendar_path variable with the path to the calendar directory. Edit the $num_days variable to indicate the number of days to display in the addon.<br /><br />
+
+Finally copy the contents of templates/defaultblue/styles/rollover.js file to your webpage and paste it between the head tags.
+
+
+	</font>
+
+
+	
+	</td></tr></table>
+	</a>
+
+
+	<br /><br />
+	
+	<a name="reminder">
+	<div align="right"><a href="#top"class="smalllink">Table of Contents</a></div>
+	
+	<table width="600" bgcolor="FFFFFF">
+	<tr><td class="tevents2" valign="top">
+	<font class="basictext" color="2D74B8"><b>5.7) Setting up the Event Reminder Feature</b></font>
+	<br /><br />
+	
+	<font class="basictext">
+	To setup the event reminder feature, create a Cron Job or a Windows Task that runs the file reminder.php once every day. The file reminder.php can be found in the <i>crons</i> directory.
+
+	For more details on how to setup a Cron Job or a Task contact your web host or Network Administrator.
+
+	</font>
+	
+	</td></tr></table>
+	</a>
+	
+	<br /><br />
+	
+	<hr width="100%">
+	
+	<div align="center">
+	<a href="http://www.phplite.com/products/calendarexpress" class="basiclink">Calendar Express v2.2</a>
+		<font class="basictext">&copy Copyright 2005</font>
+		<a href="http://www.phplite.com/" class="basiclink">PHP Lite.com</a>&nbsp;
+	
+	</div>

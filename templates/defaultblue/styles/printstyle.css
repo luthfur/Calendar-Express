@@ -1,0 +1,210 @@
+
+
+
+.header{
+	border-right-style: none; 
+	border-left-style: none;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+}
+
+
+
+.table{
+	border: 1px solid;
+	border-right-style: solid; 
+	border-left-style: solid;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #000000;
+}
+
+
+
+.theader{
+	border-right-style: none; 
+	border-left-style: none;
+	border-bottom-style: none;
+	border-top-style: solid;
+	color: #000000;
+	font-family: verdana; 
+	font-size: 10pt;
+	font-weight: bold;
+	border-color: FFFFFF; 
+	background-color: FFFFFF;
+}
+
+
+
+
+
+
+.monthemptycell {
+
+	border: 1px solid;
+	border-right-style: solid; 
+	border-left-style: none;
+	border-bottom-style:solid;
+	border-top-style: none;
+	padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+	width: 106px;
+	height: 100px;
+	border-color: 747D8E; 
+	background-color: 747D8E;
+
+}
+
+
+
+.monthdatecell{
+	border: 1px solid;
+	border-right-style: solid; 
+	border-left-style: none;
+	border-bottom-style:solid;
+	border-top-style: none;
+	padding-top: 4px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 0px;
+	width: 106px;
+	height: 100px;
+	border-color: #000000;
+	background-color: ffffff;
+}
+
+.montheventcell {
+	border: 1px solid;
+	border-right-style: solid; 
+	border-left-style: none;
+	border-bottom-style:solid;
+	border-top-style: none;
+	padding-top: 4px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 0px;
+	width: 106px;
+	height: 100px;
+	border-color: #000000;
+	background-color: C0CFE8;
+}
+
+
+
+.monthtodaycell {
+	border: 1px solid;
+	border-right-style: solid; 
+	border-left-style: none;
+	border-bottom-style:solid;
+	border-top-style: none;
+	padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+	width: 106px;
+	height: 100px;
+	border-color: #000000;
+	background-color: B2D4F4;
+}
+
+
+
+.tablebody {
+	
+	font-family: verdana; 
+	border-right-style: none; 
+	border-left-style: none;
+	border-top-style: solid;
+	border-color: #FFFFFF;
+	background-color: #ffffff;
+
+}
+
+
+
+.eventheader{
+	border: 1px solid;
+	font-family: verdana; 
+	font-size: 8pt;
+	border-right-style: none; 
+	border-left-style: none;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #000000;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+
+
+
+
+
+.tevents1{
+	border: 1px solid;
+	border-right-style: none; 
+	border-left-style: none;
+	border-top-style: solid;
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+}
+
+
+.hrbar {
+	color: #153B9C;
+}
+
+
+
+.subheader{
+	font-family: verdana; 
+	font-size: 10pt;
+	font-weight: bold;
+	color: #000000;
+}
+
+
+.bigtext{
+	font-family: verdana; 
+	font-size: 13pt;
+	color: #000000;
+}
+
+.midtext{
+	font-family: verdana; 
+	font-size: 10pt;
+	color: #000000;
+}
+
+
+.basictext{
+	font-family: verdana; 
+	font-size: 8pt;
+}
+
+
+.littletext{
+	font-family: verdana; 
+	font-size: 8pt;
+}
+
+.tinytext{
+	font-family: verdana; 
+	font-size: 6pt;
+}
+
+
+a.smalllink:link{color: #153B9C; font-family: verdana; font-size:8pt; text-decoration: underline; font-weight: bold;}
+a.smalllink:active{color: #153B9C; font-family: verdana; font-size: 8pt; text-decoration: underline; font-weight: bold;}
+a.smalllink:visited{color: #153B9C; font-family: verdana; font-size: 8pt; text-decoration: underline; font-weight: bold;}
+a.smalllink:hover{color: #FF5E1F; font-family: verdana; font-size: 8pt; text-decoration: none; font-weight: bold;}
+
+a.basiclink:link{color: #153B9C; font-family: verdana; font-size: 10pt; text-decoration: none; font-weight: bold;}
+a.basiclink:active{color: #153B9C; font-family: verdana; font-size: 10pt; text-decoration: none; font-weight: bold;}
+a.basiclink:visited{color: #153B9C; font-family: verdana; font-size: 10pt; text-decoration: none; font-weight: bold;}
+a.basiclink:hover{color: #FF5E1F; font-family: verdana; font-size: 10pt; text-decoration: none; font-weight: bold;}
+
