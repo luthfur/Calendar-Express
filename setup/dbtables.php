@@ -11,7 +11,7 @@ $SQL[] ="CREATE TABLE $admin_table (
   manage_events tinyint(1) NOT NULL default '0',
   manage_locations tinyint(1) NOT NULL default '0',
   PRIMARY KEY  (admin_id)
-) TYPE=MyISAM";
+)";
 
 
 $SQL[] ="DROP TABLE IF EXISTS $calendar_table";
@@ -24,7 +24,7 @@ $SQL[] ="CREATE TABLE $calendar_table (
   calendar_image varchar(200) NOT NULL default '',
   calendar_icon varchar(200) NOT NULL default '',
   PRIMARY KEY  (calendar_id)
-) TYPE=MyISAM";
+)";
 
 
 
@@ -34,7 +34,7 @@ $SQL[] ="DROP TABLE IF EXISTS $userpriv_table";
 $SQL[] ="CREATE TABLE $userpriv_table (
   user_id bigint(20) NOT NULL default '0',
   calendar_id bigint(20) NOT NULL default '0'
-) TYPE=MyISAM";
+)";
 
 
 
@@ -46,7 +46,7 @@ $SQL[] ="CREATE TABLE $category_table (
   cat_name varchar(200) NOT NULL default '',
   cat_image varchar(200) NOT NULL default '',
   PRIMARY KEY  (cat_id)
-) TYPE=MyISAM";
+)";
 
 
 
@@ -61,7 +61,7 @@ $SQL[] ="CREATE TABLE $contact_table (
   contact_email varchar(200) NOT NULL default '',
   contact_phone varchar(20) NOT NULL default '',
   PRIMARY KEY  (contact_id)
-) TYPE=MyISAM";
+)";
 
 
 
@@ -75,7 +75,7 @@ $SQL[] ="CREATE TABLE $email_table (
   subject varchar(200) NOT NULL default '',
   message text NOT NULL,
   PRIMARY KEY  (message_id)
-) TYPE=MyISAM";
+)";
 
 
 
@@ -100,7 +100,7 @@ $SQL[] ="CREATE TABLE $event_table (
   attachment varchar(200) NOT NULL default '',
   event_active tinyint(1) NOT NULL default '0',
   PRIMARY KEY  (event_id)
-) TYPE=MyISAM";
+)";
 
 
 
@@ -119,7 +119,7 @@ $SQL[] ="CREATE TABLE $location_table (
   zip varchar(100) NOT NULL default '',
   location_desc text NOT NULL,
   PRIMARY KEY  (location_id)
-) TYPE=MyISAM";
+)";
 
 
 
@@ -137,7 +137,7 @@ $SQL[] ="CREATE TABLE $occurence_table (
   start_date date NOT NULL default '0000-00-00',
   stop_date date NOT NULL default '0000-00-00',
   PRIMARY KEY  (type_id)
-) TYPE=MyISAM";
+)";
 
 
 $SQL[] ="DROP TABLE IF EXISTS $subscr_table";
@@ -147,7 +147,7 @@ $SQL[] ="CREATE TABLE $subscr_table (
   user_id bigint(20) NOT NULL default '0',
   calendar_id bigint(20) NOT NULL default '0',
   cat_id bigint(20) NOT NULL default '0'
-) TYPE=MyISAM";
+)";
 
 
 
@@ -159,14 +159,14 @@ $SQL[] ="CREATE TABLE $user_table (
   user_id bigint(20) NOT NULL auto_increment,
   user_name varchar(100) NOT NULL default '',
   password varchar(32) NOT NULL default '',
-  date_set timestamp(14) NOT NULL,
+  date_set timestamp,
   status tinyint(1) NOT NULL default '0',
   full_name varchar(200) NOT NULL default '',
   telephone varchar(30) NOT NULL default '',
   email varchar(200) NOT NULL default '',
   active tinyint(1) NOT NULL default '0',
   PRIMARY KEY  (user_id)
-) TYPE=MyISAM";
+)";
 
 
 $SQL[] ="INSERT INTO `$category_table` ( `cat_id` , `cat_name` , `cat_image` ) 

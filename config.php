@@ -2,20 +2,20 @@
 
 /***************************************************************
 
-ceENDAR EXPRESS - DATABASE CONFIGURATION
+CALENDAR EXPRESS - DATABASE CONFIGURATION
 
 WARNING: Improper alteration of any of the following values
 
-could cause ceendar Express to stop functioning.
+could cause Calendar Express to stop functioning.
 
 ******************************************************************/
 
 // Database Connection Values
 //
-$_CONF['hostname'] = "localhost";
-$_CONF['username'] = "cosmo";
-$_CONF['password'] = "pass";
-$_CONF['database'] = "calendarexpresspro2";
+$_CONF['hostname'] = "127.0.0.1";
+$_CONF['username'] = "root";
+$_CONF['password'] = "";
+$_CONF['database'] = "calendarexpress";
 
 $_CONF['tableprefix'] = "ce";
 
